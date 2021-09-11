@@ -3,7 +3,6 @@
 #Elementos principais
 #*******************************************************************************
 
-
 #Cria figura principal
 fig = figure(1,
   'numbertitle','off', 
