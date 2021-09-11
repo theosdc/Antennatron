@@ -67,5 +67,6 @@ function antena_array(f,e,eixo_polar,ed_dist,lista_dist,ed_fase,lista_fase,var_g
  #Plota a figura padrao---------------------------------------------------------
  axes(eixo_polar);
  polar(alpha, padrao)
+ title ("Plano H");
  endif
 endfunction

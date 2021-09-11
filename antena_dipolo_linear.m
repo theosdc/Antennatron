@@ -34,4 +34,5 @@ function antena_dipolo_linear(f,e,eixo_polar,ed_tamanho,lista_tamanho,var_gui_fr
  #Plota a figura padrao---------------------------------------------------------
  axes(eixo_polar);
  polar(theta,rho);
+ title ("Plano E");
 endfunction
