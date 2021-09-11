@@ -1,4 +1,8 @@
 #Inicializacao dos todos objetos graficos
+#*******************************************************************************
+#Elementos principais
+#*******************************************************************************
+
 
 #Cria figura principal
 fig = figure(1,
