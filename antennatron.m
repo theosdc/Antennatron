@@ -1,19 +1,21 @@
 clear all; #garante que todas as variaveis estao zeradas
 
-#Definicoes
+#Variaveis globais
 global Nam  = 5000; %Numero de amostras para a fugura padrao (pattern figure)
 
 #Programa principal
 
 #Criacao dos objetos graficos comuns--------------------------------------------
 
-GUI_ini #Inicializa os elementos que nao dependem do tipo de antena
-set(fig,'visible','on')
+GUI_ini #Inicializa todos os elementos graficos
+set(fig,'visible','on') #Deixa visivel a figura
+
+#Como default, calcula a figura padrao para a antena dipolo linear
 GUI_dipolo_linear
 antena_dipolo_linear(fig,e,eixo_polar,ed_tamanho,lista_tamanho,var_gui_freq);
  
 #Funcoes da GUI ---------------------------------------------------------------- 
-
+#Seleciona o tipo de antena a ser calculado
 function seleciona_antena(f,e,fig,lista_antena,eixo_polar,var_gui_dipolo_linear,var_gui_array,var_gui_freq)
 
  texto_tamanho   = var_gui_dipolo_linear(1); #Handles para a antena dipolo linear
