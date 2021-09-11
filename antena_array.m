@@ -32,8 +32,8 @@ function antena_array(f,e,eixo_polar,ed_dist,lista_dist,ed_fase,lista_fase,var_g
  
   
  # Calcula o numero de elementos
-  Nx  = size(x,2)
-  Nxi = size(xi,2)
+  Nx  = size(x,2);
+  Nxi = size(xi,2);
   if (Nx != Nxi)  #Mostra mensagem de erro se o numero de elementos for differente
    set(texto_erro,'visible','on');
   else

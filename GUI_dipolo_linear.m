@@ -19,7 +19,7 @@ set(b_array, 'visible', 'off');
 
 #Cria a imagem
 eixo_imagem = axes ( ...
-    'position', [0.53125, 0.6,  0.3944   0.4336],
+    'position', [0.53125, 0.625,  0.3944   0.41],
     'xtick',    [], 
     'ytick',    [],
     'xlim',     [0, 1], 
