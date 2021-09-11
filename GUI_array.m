@@ -17,7 +17,7 @@ set(ed_fase, 'visible', 'on');
 set(lista_fase, 'visible', 'on');
 set(b_array, 'visible', 'on');  
 
-  #Cria a imagem
+#Cria a imagem
 eixo_imagem = axes ( ...
     'position', [0.53125, 0.6,  0.3944   0.4336],
     'xtick',    [], 
